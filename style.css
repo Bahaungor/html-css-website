@@ -1,0 +1,177 @@
+body{
+    display: flex;
+    flex-direction: column;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+}
+
+.header{
+    display: flex;
+    padding: 0px 150px;
+    align-items: center;
+    height: 65px;
+    background-color: #1f2937;
+    margin: 0;
+}
+.header-links{
+    margin-left: auto;
+}
+.header-links > ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 15px;
+}
+.header-links > ul > li > a{
+    text-decoration: none;
+    color: #E5E7EB;
+    font-size: 18px;
+
+}
+.header-logo{
+    font-size: 24px;
+    font-weight: 700;
+    color: #F9FAF8;
+}
+
+.featured-content-container{
+    background-color: #1f2937;
+    height: 400px;
+    display: flex;
+    padding: 0 150px;
+    align-items: center;
+    justify-content: space-between;
+    gap: 55px;
+}
+
+.featured-content {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    gap: 20px;
+    flex-shrink: 0;
+}
+
+.featured-image{
+    width: 300px;
+    height: auto;
+}
+
+.featured-content-title {
+    font-size: 35px;
+    font-weight: 700;
+    color: #F9FAF8;
+    line-height: 40px;
+}
+
+.featured-content-text {
+    color: 18px;
+    color: #E5E7EB;
+}
+
+.featured-content-sign-up-button > a {
+    border: none;
+    background-color: #3882F6;
+    color: white;
+    padding: 5px 30px;
+    border-radius: 8px;
+    text-decoration: none;
+    flex: 0;
+}
+.portfolio-container-big {
+    padding: 35px 200px; 
+    text-align: center;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.portfolio-title{
+    font-size: 30px;
+    font-weight: 700;
+}
+.portfolio-container-small{
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    align-items: flex-end;
+}
+.portfolio-item {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 150px;
+    height: auto;
+}
+.portfolio-square-image{
+    width: 150px;
+    height: auto;
+    border: 4px solid #3882F6;
+    border-radius: 10px;
+}
+
+.quote-container {
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #E5E7EB;
+    padding: 0 200px;
+}
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+    line-height: 45px;
+}
+.quote-credit {
+    align-self: flex-end;
+    font-weight: 700;
+    font-size: 23px;
+}
+
+.ad-container-big{
+    display: flex;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+}
+
+.ad-container-small{
+    width: 800px;
+    height: 150px;
+    background-color: #3882F6;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0 50px;
+}
+.ad-text{
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+.ad-title{
+    font-size: 20px;
+    font-weight: 600;
+}
+.white-border-sign-up-button{
+    border: 2.5px solid white;
+    padding: 5px 30px;
+    border-radius: 8px;
+}
+.white-border-sign-up-button > a{
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+}
+.footer{
+    height: 100px;
+    background-color: #1f2937;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
